@@ -6,9 +6,9 @@
                 <p class="ml-4">With every share you get another entry into the draw </p>
             </div>
             <div class="col-md-4 text-center">
-                <a href="http://"><img src="@/assets/img/fb.png" alt="facebook"></a>
-                <a href="http://"><img src="@/assets/img/twitter.png" alt="twitter"></a>
-                <a href="http://"><img src="@/assets/img/inst.png" alt="instgram"></a>
+                <a href="http://"><img src="@/assets/img/fb.svg" alt="facebook"></a>
+                <a href="http://"><img src="@/assets/img/twitter.svg" alt="twitter"></a>
+                <a href="http://"><img src="@/assets/img/inst.svg" alt="instgram"></a>
             </div>
         </div>
     </section>

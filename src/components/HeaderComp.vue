@@ -2,7 +2,7 @@
   <div class="container-fluid p-0">
       <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand ml-3" href="#">
-              <img src="@/assets/img/logo.png" alt="ORPHELIA_LOGO">
+              <img src="@/assets/img/logo.svg" alt="ORPHELIA_LOGO">
           </a>
           <div class="navbar-text text-left">
               <h5>TIME UNTIL NEXT DRAW</h5>
