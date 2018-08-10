@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-fluid cus">
     <HeaderComp/>
     <div class="wrapper">
       <Content />

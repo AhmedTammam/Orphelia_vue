@@ -15,6 +15,9 @@ body {
     font-family: Trenda;
     font-weight: bold;
 }
+.cus{
+    padding: 0;
+}
 .wrapper{
     background: url('../img/bg.png') no-repeat, #02b7b2;
 }
@@ -93,6 +96,19 @@ button[type=submit]{
     border-radius: 25px;
     width: 70%;
     margin-top: 30px;
+    border: none
+}
+button[type=submit]:hover{
+    background-color: #004237;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #004237;
+    border-color: rgba(0, 0, 0, 0);
+}
+primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0rem rgba(0,0,0,0);
+    box-shadow: 0 0 0 0rem rgba(0,0,0,0);
 }
 
 .share{
@@ -155,14 +171,19 @@ button[type=submit]{
         width: 70%;
         transform: rotate(-10deg)
     }
+    .details p {
+        font-size: 20px;
+    }
     .form {
         padding: 25px;
     }
     button[type=submit]{
         width: 90%;
+        font-size: 12px;
+        border: none
     }
     .share {
-        min-height: 200px;
+        min-height: 250px;
     }
     .share h3 {
         font-size: 18px;
@@ -171,6 +192,12 @@ button[type=submit]{
     }
     .share p{
         margin-top: 40px;
+        text-align: center;
+        margin-left: 0!important;
+    }
+    .share .text-center{
+        margin-left: 33px;
+        margin-top: 20px;
     }
     .shipping{
         padding: 30px 70px;

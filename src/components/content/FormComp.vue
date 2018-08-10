@@ -33,10 +33,17 @@
                     <label class="d-block">Date of birth
                         <span class="err" v-show="errors.has('date_format_field')">*</span>
                     </label>
-                    <input type="text" name="date_format_field"
-                            v-model="date_format_field"
-                            v-validate="'date_format:DD/MM/YYYY'"
-                            :class="{'input': true, 'is-danger': errors.has('date_format_field') }">
+                    <masked-input
+                        type="text"
+                        name="date"
+                        class="form-control"
+                        v-model="date_format_field"
+                        :mask="[/[0-3]/, /[0-9]/,'/',/[0-1]/,/[1-9]/,'/',/\d/, /\d/, /\d/, /\d/]"
+                        :class="{'input': true, 'is-danger': errors.has('date_format_field') }"
+                        :guide="false"
+                        placeholderChar="#"
+                        placeholder="DD/MM/YY">
+                    </masked-input>
                 </div>
             </div>
             <div class="form-group">
@@ -53,11 +60,15 @@
 <script>
 import Vue from "vue";
 import VeeValidate from 'vee-validate';
+import MaskedInput from 'vue-text-mask'
 
 Vue.use(VeeValidate);
 
 export default {
   name: 'FormComp',
+  components: {
+      MaskedInput
+    },
   data: () => ({
     fName: '',
     lName: '',
