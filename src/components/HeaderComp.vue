@@ -6,7 +6,7 @@
           </a>
           <div class="navbar-text text-left">
               <h5>TIME UNTIL NEXT DRAW</h5>
-              <h5>0 DAYS, 3 HRS, 10 MINS, 40 SECS</h5>
+              <CountDown date="2018-09-24 08:15:00" />
           </div>
       </nav>
   </div>
