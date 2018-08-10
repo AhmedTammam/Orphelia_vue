@@ -9,11 +9,13 @@
 <script>
 import PromoteComp from './content/PromoteComp.vue'
 import FormComp from './content/FormComp.vue'
+import FormVali from './content/FormVali.vue'
 export default {
     name: 'Content',
     components: {
         PromoteComp,
-        FormComp
+        FormComp,
+        FormVali
     }
 }
 </script>
