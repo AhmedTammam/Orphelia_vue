@@ -19,7 +19,9 @@ body {
     padding: 0;
 }
 .wrapper{
-    background: url('../img/bg.png') no-repeat, #02b7b2;
+    background: url('../img/bg.svg') no-repeat, #02b7b2;
+    background-position-y: -50px;
+    background-size: 100%;
 }
 .navbar {
     justify-content: left
@@ -137,14 +139,27 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
 }
 
 .shipping{
-    background-color: #02b7b2;
     padding: 5rem;
     height: 100%;
+}
+.shipp-item img {
+    margin-right: 15px;
+    float: left;
+    height: 50px;
+}
+.shipp-item h5 {
+    font-family: "Trenda regular";
+    font-size: 20px;
 }
 
 
 
 @media screen and (max-width: 576px){
+    .wrapper{
+        background: url('../img/bg.svg') no-repeat, #02b7b2;
+        background-position-y: -50px;
+        
+    }
     .navbar {
         flex-direction: column;
         justify-content: center;
@@ -187,13 +202,14 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
     .share h3 {
         font-size: 18px;
-        margin: -30px auto auto 30px;
+        margin-top: -50px;
+        margin-left: 50px;
 
     }
     .share p{
         margin-top: 40px;
         text-align: center;
-        margin-left: 0!important;
+
     }
     .share .text-center{
         margin-left: 33px;
@@ -203,6 +219,58 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         padding: 30px 70px;
     }
     .shipp-item{
-        padding-bottom: 30px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    .shipp-item img {
+        margin-right: 15px;
+        float: none;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .shipp-item h5 {
+        font-family: "Trenda regular";
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991.98px) { 
+    .content, .share{
+        padding: 30px;
+        margin-bottom: 103px;
+    }
+    .shipping{
+        padding: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    button[type=submit]{
+        width: 90%;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px){
+    .share {
+        height: 200px;
+        padding-top: 60px;
+    }
+    .share h3 {
+        margin-top: -100px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 320px){
+    .share h3 {
+        margin-left: 15px;
+    }
+    .share p {
+        margin-left: 0px !important;
+    }
+    .share img {
+        margin-right: 30px;
     }
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-6">
+    <div class="col-lg-6 col-md-12">
         <div class="promote">
             <img class="img-fluid" src="@/assets/img/promote.png" alt="">
         </div>

@@ -2,30 +2,24 @@
     <section class="shipping">
         <div class="row">
             <div class="col-md-4 shipp-item">
-                <div class="media">
-                    <img class="mr-3 align-self-center" src="@/assets/img/gem.svg" alt="GUARANTEE">
-                    <div class="media-body">
-                        <h5 class="mt-0">2 Years</h5>
-                        GUARANTEE
-                    </div>
+                <img src="@/assets/img/gem.svg" alt="GUARANTEE">
+                <div>
+                    <h5 class="mt-0">2 Years</h5>
+                    <h5>GUARANTEE</h5>
                 </div>
             </div>
             <div class="col-md-4 shipp-item">
-                <div class="media">
-                    <img class="mr-3 align-self-center" src="@/assets/img/shipp.svg" alt="Shipping">
-                    <div class="media-body">
-                        <h5 class="mt-0">Free</h5>
-                        SHIPPING
-                    </div>
+                <img src="@/assets/img/shipp.svg" alt="Shipping">
+                <div>
+                    <h5 class="mt-0">Free</h5>
+                    <h5>SHIPPING</h5>
                 </div>
             </div>
             <div class="col-md-4 shipp-item">
-                <div class="media">
-                    <img class="mr-3 align-self-center" src="@/assets/img/returns.svg" alt="Returns">
-                    <div class="media-body">
-                        <h5 class="mt-0">Free</h5>
-                        RETURNS
-                    </div>
+                <img src="@/assets/img/returns.svg" alt="Returns">
+                <div>
+                    <h5 class="mt-0">Free</h5>
+                    <h5>RETURNS</h5>
                 </div>
             </div>
         </div>

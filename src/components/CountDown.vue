@@ -49,7 +49,7 @@ export default {
 }
 @media screen and (max-width: 576px){
     .countdown h5{
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 }
 </style>

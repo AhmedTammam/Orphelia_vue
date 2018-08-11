@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-6 my-3">
+    <div class="col-lg-6 col-md-12">
         <form class="form"  @submit.prevent="onSubmit">
             <div class="form-group">
                 <label for="firstName">First Name<span class="err" v-show="errors.has('fName')">*</span></label>
