@@ -3,7 +3,7 @@
         <form class="form"  @submit.prevent="onSubmit">
             <div class="form-group">
                 <label for="firstName">First Name<span class="err" v-show="errors.has('fName')">*</span></label>
-                <input class="form-control" name="fName" type="text"
+                <input class="form-control" id="firstName" name="fName" type="text"
                     v-model="fName"
                     v-validate="'required|alpha'"
                     :class="{'input': true, 'is-danger': errors.has('fName') }">
@@ -30,11 +30,12 @@
                     </div>
                 </div>
                 <div class="col-md-6 my-1">
-                    <label class="d-block">Date of birth
+                    <label class="d-block" for="date">Date of birth
                         <span class="err" v-show="errors.has('date_format_field')">*</span>
                     </label>
                     <masked-input
                         type="text"
+                        id="date"
                         name="date"
                         class="form-control"
                         v-model="date_format_field"
@@ -48,7 +49,7 @@
             </div>
             <div class="form-group">
                 <label for="email">Email<span class="err" v-show="errors.has('email')">*</span></label>
-                <input name="email" v-model="email" type="email" class="form-control" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }">
+                <input id="email" name="email" v-model="email" type="email" class="form-control" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }">
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-primary button">I want to win!</button>
