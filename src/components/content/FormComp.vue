@@ -51,7 +51,7 @@
                 <input name="email" v-model="email" type="email" class="form-control" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }">
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn-primary button">Register me to win a free watch</button>
+                <button type="submit" class="btn btn-primary button">I want to win!</button>
             </div>
         </form>
     </div>

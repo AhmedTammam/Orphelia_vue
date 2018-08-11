@@ -153,18 +153,12 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     font-size: 20px;
 }
 
-@media screen and (width: 768px){
-    .share h3 {
-        width: 50%;
-        margin: -75px auto 27px;
-    }
-}
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 767px){
     .wrapper{
         background: url('../img/bg.svg') no-repeat, #02b7b2;
         background-position-y: -50px;
-        
+
     }
     .navbar {
         flex-direction: column;
@@ -202,7 +196,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
     button[type=submit]{
         width: 90%;
-        font-size: 12px;
+        font-size: 18px;
         border: none
     }
     .share {
@@ -220,16 +214,16 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         width: 90%;
 
     }
-   
+
     .shipping{
         padding: 30px 70px;
     }
-   
+
     .shipp-item{
         padding-bottom: 50px;
         text-align: center;
     }
-    
+
     .shipp-item img {
         margin-right: 15px;
         float: none;
@@ -242,7 +236,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
 }
 
-@media screen and (max-width: 991.98px) { 
+@media screen and (max-width: 992px) {
     .content, .share{
         padding: 30px 0;
         margin-bottom: 103px;
@@ -258,4 +252,4 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         font-size: 16px;
         margin: -50px 75px;
     }
-} 
+}

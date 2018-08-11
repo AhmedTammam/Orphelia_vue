@@ -2,14 +2,14 @@
     <section class="shipping">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12 col-xs-12 shipp-item">
+                <div class="col-md-4 col-sm-12 shipp-item">
                     <img src="@/assets/img/gem.svg" alt="GUARANTEE">
                     <div>
                         <h5 class="mt-0">2 Years</h5>
                         <h5>GUARANTEE</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 shipp-item">
+                <div class="col-md-4 col-sm-12 shipp-item">
                     <img src="@/assets/img/shipp.svg" alt="Shipping">
                     <div>
                         <h5 class="mt-0">Free</h5>
