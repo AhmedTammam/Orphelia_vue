@@ -99,7 +99,8 @@ button[type=submit]{
     width: 90%;
     min-height: 50px;
     margin-top: 30px;
-    border: none
+    border: none;
+    font-size: 24px;
 }
 button[type=submit]:hover{
     background-color: #004237;
@@ -118,17 +119,16 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     background-color: #004237;
     padding: 5rem;
     position: relative;
-    height: 100px;
+    min-height: 100px;
 }
 
 .share h3 {
     background-color: white;
     color: #02b7b2;
-    margin: 0 auto;
     padding: 20px;
-    display: inline-block;
-    position: absolute;
     margin-top: -100px;
+    width: 41%;
+    margin-left: 50px;
 }
 .share p{
     color: white;
@@ -153,7 +153,12 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     font-size: 20px;
 }
 
-
+@media screen and (width: 768px){
+    .share h3 {
+        width: 50%;
+        margin: -75px auto 27px;
+    }
+}
 
 @media screen and (max-width: 576px){
     .wrapper{
@@ -202,10 +207,11 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
     .share {
         min-height: 250px;
+        margin-top: 20px;
     }
     .share h3 {
-        font-size: 16px;
-        margin: -50px 75px
+        width: 100%;
+        margin: -55px auto;
 
     }
     .share p{
@@ -214,13 +220,11 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         width: 90%;
 
     }
-    .share .text-center{
-        margin-left: 33px;
-        margin-top: 20px;
-    }
+   
     .shipping{
         padding: 30px 70px;
     }
+   
     .shipp-item{
         padding-bottom: 50px;
         text-align: center;
@@ -251,7 +255,6 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
 
 @media (width: 320px){
     share h3 {
-
         font-size: 16px;
         margin: -50px 75px;
     }
