@@ -96,7 +96,8 @@ body {
 button[type=submit]{
     background-color: #02b7b2;
     border-radius: 25px;
-    width: 70%;
+    width: 90%;
+    min-height: 50px;
     margin-top: 30px;
     border: none
 }
@@ -170,8 +171,10 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     .navbar-text{
         text-align: center !important;
     }
-
-    .content, .share, .shipping{
+    .content{
+        padding: 5rem 0;
+    }
+    .share, .shipping{
         padding: 1rem;
     }
     .promote {
@@ -201,14 +204,14 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         min-height: 250px;
     }
     .share h3 {
-        font-size: 18px;
-        margin-top: -50px;
-        margin-left: 50px;
+        font-size: 16px;
+        margin: -50px 75px
 
     }
     .share p{
         margin-top: 40px;
         text-align: center;
+        width: 90%;
 
     }
     .share .text-center{
@@ -237,7 +240,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
 
 @media screen and (max-width: 991.98px) { 
     .content, .share{
-        padding: 30px;
+        padding: 30px 0;
         margin-bottom: 103px;
     }
     .shipping{
@@ -245,32 +248,11 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
 }
 
-@media (min-width: 992px) {
-    button[type=submit]{
-        width: 90%;
-        font-size: 12px;
-    }
-}
 
-@media (min-width: 768px){
-    .share {
-        height: 200px;
-        padding-top: 60px;
-    }
-    .share h3 {
-        margin-top: -100px;
-        margin-left: 0px;
-    }
-}
+@media (width: 320px){
+    share h3 {
 
-@media (min-width: 320px){
-    .share h3 {
-        margin-left: 15px;
+        font-size: 16px;
+        margin: -50px 75px;
     }
-    .share p {
-        margin-left: 0px !important;
-    }
-    .share img {
-        margin-right: 30px;
-    }
-}
+} 

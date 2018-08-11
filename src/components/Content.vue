@@ -1,8 +1,10 @@
 <template>
     <section class="content">
-        <div class="row">
-            <PromoteComp />
-            <FormComp />
+        <div class="container">
+            <div class="row">
+                <PromoteComp />
+                <FormComp />
+            </div>
         </div>
     </section>
 </template>
