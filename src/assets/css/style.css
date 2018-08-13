@@ -114,7 +114,24 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     -webkit-box-shadow: 0 0 0 0rem rgba(0,0,0,0);
     box-shadow: 0 0 0 0rem rgba(0,0,0,0);
 }
-
+.message {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+.message h3{
+    font-size: 50px;
+    color: #004237;
+}
+.message h5{
+    font-size: 35px;
+    color: #02b7b2;
+    margin-bottom: 25px;
+}
+.message p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
 .share{
     background-color: #004237;
     padding: 5rem;
@@ -198,6 +215,20 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         width: 90%;
         font-size: 18px;
         border: none
+    }
+    .message {
+        padding: 25px;
+    }
+    .message h3{
+        font-size: 35px;
+    }
+    .message h5{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .message p{
+        font-size: 15px;
+        margin-bottom: 25px;
     }
     .share {
         min-height: 250px;
