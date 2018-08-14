@@ -2,7 +2,7 @@
     <section class="share">
         <div class="container">
             <div class="row text-left">
-                <div class="col-12">
+                <div>
                     <h3>SHARE IT TO WEAR IT</h3>
                 </div>
             </div>

@@ -144,8 +144,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     color: #02b7b2;
     padding: 20px;
     margin-top: -100px;
-    width: 41%;
-    margin-left: 50px;
+    width: 100%;
 }
 .share p{
     color: white;
@@ -235,8 +234,8 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         margin-top: 20px;
     }
     .share h3 {
-        width: 100%;
-        margin: -55px auto;
+        margin: -55px 12px;
+        font-size: 22px;
 
     }
     .share p{
