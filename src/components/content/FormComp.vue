@@ -38,14 +38,15 @@
                     <masked-input
                         type="text"
                         id="date"
-                        name="date"
+                        name="dateOfBirth"
                         class="form-control"
                         v-model="user.dateOfBirth"
                         :mask="[/[0-3]/, /[0-9]/,'/',/[0-1]/,/[1-9]/,'/',/[1-2]/, /[0-9]/, /\d/, /\d/]"
                         :class="{'input': true, 'is-danger': errors.has('dateOfBirth') }"
                         :guide="false"
                         placeholderChar="#"
-                        placeholder="DD/MM/YY">
+                        placeholder="DD/MM/YY"
+                        v-validate="'required'">
                     </masked-input>
                 </div>
             </div>

@@ -6,7 +6,7 @@
                     <h3>SHARE IT TO WEAR IT</h3>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-lg-8 col-md-6">
                     <p class="ml-4">With every share you get another entry into the draw </p>
                 </div>
