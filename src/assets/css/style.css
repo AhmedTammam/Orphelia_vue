@@ -14,6 +14,7 @@
 body {
     font-family: Trenda;
     font-weight: bold;
+    background-color: #02b7b2;
 }
 .cus{
     padding: 0;
@@ -39,6 +40,11 @@ body {
 .navbar-text h5:first-child{
     font-size: 14px;
     color: #222222;
+}
+
+.navbar-text span {
+    font-size: 22px;
+    color: #02b7b2;
 }
 
 
@@ -132,6 +138,9 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     font-size: 22px;
     margin-bottom: 25px;
 }
+.small {
+    font-size: 14px !important;
+}
 .share{
     background-color: #004237;
     padding: 5rem;
@@ -144,6 +153,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     color: #02b7b2;
     padding: 20px;
     margin-top: -100px;
+    -webkit-margin-top: -100px !important;
 }
 .share p{
     color: white;
@@ -184,6 +194,9 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
     .navbar-text{
         text-align: center !important;
+    }
+    .navbar-text span{
+        font-size: 14px;
     }
     .content{
         padding: 5rem 0;

@@ -11,9 +11,9 @@
                     <p>With every share you get another entry into the draw </p>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
-                    <a href="http://"><img src="@/assets/img/fb.svg" alt="facebook"></a>
-                    <a href="http://"><img src="@/assets/img/twitter.svg" alt="twitter"></a>
-                    <a href="http://"><img src="@/assets/img/inst.svg" alt="instgram"></a>
+                    <a href="https://www.facebook.com/ORPHELIA.EU/"><img src="@/assets/img/fb.svg" alt="facebook"></a>
+                    <a href="https://twitter.com/_ORPHELIA_"><img src="@/assets/img/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.instagram.com/orphelia/"><img src="@/assets/img/inst.svg" alt="instgram"></a>
                 </div>
             </div>
         </div>

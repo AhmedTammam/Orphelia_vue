@@ -54,6 +54,11 @@
                 <label for="email">Email<span class="err" v-show="errors.has('email')">*</span></label>
                 <input id="email" name="email" v-model="user.email" type="email" class="form-control" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }">
             </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" name="agreed" v-model="user.agreed" v-validate="'required'" :class="{'input': true, 'is-danger': errors.has('agreed') }">
+                <label class="form-check-label" for="exampleCheck1">Yes, I agree with the terms and conditions</label>
+                <span class="err" v-show="errors.has('email')">*</span>
+            </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal">I want to win!</button>
             </div>
@@ -81,7 +86,8 @@ export default {
         lastName: '',
         email: '',
         gender: '',
-        dateOfBirth: ''
+        dateOfBirth: '',
+        agreed: false
       },
       isSubmit: false
   }),

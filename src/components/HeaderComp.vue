@@ -2,12 +2,15 @@
   <div class="container-fluid p-0 bg-light">
       <div class="container">
         <nav class="navbar navbar-light">
-            <a class="navbar-brand ml-3" href="#">
+            <a class="navbar-brand ml-3" href="https://orphelia.eu">
                 <img src="@/assets/img/logo.svg" alt="ORPHELIA_LOGO">
             </a>
             <div class="navbar-text text-left">
                 <h5>TIME UNTIL NEXT DRAW</h5>
-                <CountDown date="2018-09-24 09:15:00" />
+                
+                <VueCountdown :time="3 * 24 * 60 * 60 * 1000">
+                    <template class="countdown" slot-scope="props">{{ props.days }} DAYS, {{ props.hours }} HRS, {{ props.minutes }} MINS, {{ props.seconds }} SECS</template>
+                </VueCountdown>
             </div>
         </nav>
       </div>
@@ -15,12 +18,12 @@
 </template>
 
 <script>
-import CountDown from './CountDown.vue'
+import VueCountdown from '@xkeshi/vue-countdown';
 
 export default {
   name: 'HeaderComp',
   components: {
-      CountDown
+      VueCountdown
   }
 }
 </script>
