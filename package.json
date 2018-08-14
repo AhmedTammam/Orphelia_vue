@@ -11,6 +11,7 @@
     "moment": "^2.22.2",
     "vee-validate": "^2.1.0-beta.7",
     "vue": "^2.5.17",
+    "vue-resource": "^1.5.1",
     "vue-text-mask": "^6.1.2"
   },
   "devDependencies": {

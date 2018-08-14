@@ -1,6 +1,6 @@
 <template id="countdown-template">
     <div class="countdown">
-        <h5>{{ days | two_digits }} DAYS, {{ hours | two_digits }} HRS, {{ minutes | two_digits }} MINS, {{ seconds | two_digits }} SECS</h5>
+        <h5>{{ days }} DAYS, {{ hours}} HRS, {{ minutes}} MINS, {{ seconds }} SECS</h5>
     </div>
 </template>
 

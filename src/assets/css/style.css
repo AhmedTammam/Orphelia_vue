@@ -99,7 +99,8 @@ button[type=submit]{
     width: 90%;
     min-height: 50px;
     margin-top: 30px;
-    border: none
+    border: none;
+    font-size: 24px;
 }
 button[type=submit]:hover{
     background-color: #004237;
@@ -113,22 +114,38 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     -webkit-box-shadow: 0 0 0 0rem rgba(0,0,0,0);
     box-shadow: 0 0 0 0rem rgba(0,0,0,0);
 }
-
+.message {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+.message h3{
+    font-size: 50px;
+    color: #004237;
+}
+.message h5{
+    font-size: 35px;
+    color: #02b7b2;
+    margin-bottom: 25px;
+}
+.message p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
 .share{
     background-color: #004237;
     padding: 5rem;
     position: relative;
-    height: 100px;
+    min-height: 100px;
 }
 
 .share h3 {
     background-color: white;
     color: #02b7b2;
-    margin: 0 auto;
     padding: 20px;
-    display: inline-block;
-    position: absolute;
     margin-top: -100px;
+    width: 41%;
+    margin-left: 50px;
 }
 .share p{
     color: white;
@@ -154,12 +171,11 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
 }
 
 
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 767px){
     .wrapper{
         background: url('../img/bg.svg') no-repeat, #02b7b2;
         background-position-y: -50px;
-        
+
     }
     .navbar {
         flex-direction: column;
@@ -197,15 +213,30 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
     button[type=submit]{
         width: 90%;
-        font-size: 12px;
+        font-size: 18px;
         border: none
+    }
+    .message {
+        padding: 25px;
+    }
+    .message h3{
+        font-size: 35px;
+    }
+    .message h5{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .message p{
+        font-size: 15px;
+        margin-bottom: 25px;
     }
     .share {
         min-height: 250px;
+        margin-top: 20px;
     }
     .share h3 {
-        font-size: 16px;
-        margin: -50px 75px
+        width: 100%;
+        margin: -55px auto;
 
     }
     .share p{
@@ -214,18 +245,16 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         width: 90%;
 
     }
-    .share .text-center{
-        margin-left: 33px;
-        margin-top: 20px;
-    }
+
     .shipping{
         padding: 30px 70px;
     }
+
     .shipp-item{
         padding-bottom: 50px;
         text-align: center;
     }
-    
+
     .shipp-item img {
         margin-right: 15px;
         float: none;
@@ -238,7 +267,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     }
 }
 
-@media screen and (max-width: 991.98px) { 
+@media screen and (max-width: 992px) {
     .content, .share{
         padding: 30px 0;
         margin-bottom: 103px;
@@ -251,8 +280,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
 
 @media (width: 320px){
     share h3 {
-
         font-size: 16px;
         margin: -50px 75px;
     }
-} 
+}
