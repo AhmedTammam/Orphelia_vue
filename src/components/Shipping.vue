@@ -6,7 +6,7 @@
                     <img src="@/assets/img/gem.svg" alt="GUARANTEE">
                     <div>
                         <h5 class="mt-0">2 Years</h5>
-                        <h5>GUARANTEE</h5>
+                        <h5>WARRANTY</h5>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 shipp-item">
