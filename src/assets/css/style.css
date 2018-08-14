@@ -144,7 +144,6 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     color: #02b7b2;
     padding: 20px;
     margin-top: -100px;
-    width: 100%;
 }
 .share p{
     color: white;
@@ -152,7 +151,7 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
     font-size: 21px;
 }
 .share img {
-    margin-right: 50px;
+    margin:0px 20px;
 }
 
 .shipping{
@@ -233,15 +232,19 @@ primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-
         min-height: 250px;
         margin-top: 20px;
     }
+    .fix {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
     .share h3 {
         margin: -55px 12px;
-        font-size: 22px;
+        font-size: 20px;
 
     }
     .share p{
         margin-top: 40px;
         text-align: center;
-        width: 90%;
 
     }
 
