@@ -1,5 +1,7 @@
 # orphelia-vue
 
+winner form for Orphelia's Lottery "e-commerce website"
+
 ## Project setup
 ```
 yarn install
